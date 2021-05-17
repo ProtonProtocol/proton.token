@@ -22,3 +22,14 @@ How to launch your own token in 5 steps:
     - memo: you can leave empty
 
 Then the token should appear in your wallet 🙂
+
+If you would like to upload a logo to Proton Wallet, do the following:
+
+Go to https://proton.bloks.io/account/token.proton?loadContract=true&tab=Actions&account=token.proton&scope=token.proton&limit=100&action=reg
+
+   - tcontract: account name e.g. "tokentester"
+   - tname: name of token e.g. "Meme Token"
+   - url: url of token e.g. "https://meme.com"
+   - desc: description of token e.g. "The Memest of them All"
+   - iconurl: token image url e.g. "https://meme.com/token.png"
+   - symbol: symbol of token e.g. "4,MEME", 4 is the precision of the MEME token from earlier (remember .0000)
