@@ -1,5 +1,5 @@
 {
-  "name": "eosio.token",
+  "name": "proton.token",
   "generators": [
     {
       "name": "collate_markdown",
@@ -11,7 +11,7 @@
       "name": "mdjavadoc",
       "options": {
         "source_dirs": [
-          "contracts/eosio.token/include/eosio.token/"
+          "contracts/proton.token/include/proton.token/"
         ],
         "output_dir": "action-reference"
       }

@@ -17,10 +17,10 @@ include(ExternalProject)
 
 find_package(eosio.cdt)
 
-message(STATUS "Building eosio.token v${VERSION_FULL}")
+message(STATUS "Building proton.token v${VERSION_FULL}")
 
-set(EOSIO_CDT_VERSION_MIN "1.8")
-set(EOSIO_CDT_VERSION_SOFT_MAX "1.8")
+set(EOSIO_CDT_VERSION_MIN "1.7")
+set(EOSIO_CDT_VERSION_SOFT_MAX "1.7")
 #set(EOSIO_CDT_VERSION_HARD_MAX "")
 
 ### Check the version of eosio.cdt

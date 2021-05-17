@@ -1,6 +1,6 @@
 ---
-content_title: How to build eosio.token
-link_text: How to build eosio.token
+content_title: How to build proton.token
+link_text: How to build proton.token
 ---
 
 ## Preconditions
@@ -12,11 +12,11 @@ eosio-cpp -v
 
 ### Build contracts manually
 
-To build the `eosio.token` execute the following commands.
+To build the `proton.token` execute the following commands.
 
 On all platforms except macOS:
 ```sh
-cd you_local_path_to/eosio.token/
+cd you_local_path_to/proton.token/
 rm -fr build
 mkdir build
 cd build
@@ -27,7 +27,7 @@ cd ..
 
 For macOS:
 ```sh
-cd you_local_path_to/eosio.token/
+cd you_local_path_to/proton.token/
 rm -fr build
 mkdir build
 cd build
@@ -52,10 +52,10 @@ make
 * The contracts (both `.wasm` and `.abi` files) are built into their corresponding _build/contracts/\<contract name\>_ folder.
 * Finally, simply use __cleos__ to _set contract_ by pointing to the previously mentioned directory for the specific contract.
 
-# How to deploy the eosio.token
+# How to deploy the proton.token
 
-## To deploy eosio.token contract execute the following command:
+## To deploy proton.token contract execute the following command:
 Let's assume your account name to which you want to deploy the contract is `testertoken`
 ```
-cleos set contract testertoken you_local_path_to/eosio.token/build/contracts/eosio.token/ -p testertoken
+cleos set contract testertoken you_local_path_to/proton.token/build/contracts/proton.token/ -p testertoken
 ```

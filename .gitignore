@@ -6,6 +6,15 @@
 *.lo
 *.o
 *.obj
+*.cmake
+
+CMakeCache.txt
+MakeFile
+CMakeFiles/
+contracts/CMakeFiles/
+contracts/proton.token/CMakeFiles/
+contracts/proton.token/ricardian/proton.token.contracts.md
+contracts_project-prefix/
 
 # Precompiled Headers
 *.gch

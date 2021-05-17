@@ -1,4 +1,4 @@
-#include <eosio.token/eosio.token.hpp>
+#include <proton.token/proton.token.hpp>
 
 namespace eosio {
 

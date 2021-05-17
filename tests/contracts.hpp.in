@@ -4,8 +4,8 @@
 namespace eosio { namespace testing {
 
 struct contracts {
-   static std::vector<uint8_t> token_wasm() { return read_wasm("${CMAKE_BINARY_DIR}/../contracts/eosio.token/eosio.token.wasm"); }
-   static std::vector<char>    token_abi() { return read_abi("${CMAKE_BINARY_DIR}/../contracts/eosio.token/eosio.token.abi"); }
+   static std::vector<uint8_t> token_wasm() { return read_wasm("${CMAKE_BINARY_DIR}/../contracts/proton.token/proton.token.wasm"); }
+   static std::vector<char>    token_abi() { return read_abi("${CMAKE_BINARY_DIR}/../contracts/proton.token/proton.token.abi"); }
    
 };
 }} //ns eosio::testing
