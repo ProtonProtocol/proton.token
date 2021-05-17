@@ -1,12 +1,12 @@
 How to launch your own token in 5 steps:
 
 1. Buy atleast 200KB RAM from protonresources.com
-2. Download proton.token ABI and WASM:
+2. Download proton.token ABI and WASM (right click -> save link as):
 
     - ABI: https://github.com/ProtonProtocol/proton.token/raw/main/contracts/proton.token/proton.token.abi
     - WASM: https://github.com/ProtonProtocol/proton.token/raw/main/contracts/proton.token/proton.token.wasm
 
-4. Log in at https://proton.bloks.io/wallet/utilities/upload-contract and upload the code and ABI
+4. Log in at https://proton.bloks.io/wallet/utilities/upload-contract and upload the WASM and ABI
 
     - For the next few steps, replace tokentester in all URLs and parameters with your own account name
 
