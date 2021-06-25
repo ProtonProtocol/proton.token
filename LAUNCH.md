@@ -18,7 +18,7 @@ How to launch your own token in 5 steps:
 5. Go to https://proton.bloks.io/account/tokentester?loadContract=true&tab=Actions&account=tokentester&scope=tokentester&limit=100&action=issue
 
     - to: is "tokentester"
-    - quantity: is how much you want to issue right now, e.g. 4.0000 MEME
+    - quantity: is how much you want to issue right now, e.g. "4.0000 MEME"
     - memo: you can leave empty
 
 Then the token should appear in your wallet 🙂
