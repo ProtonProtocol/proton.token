@@ -33,3 +33,7 @@ Go to https://proton.bloks.io/account/token.proton?loadContract=true&tab=Actions
    - desc: description of token e.g. "The Memest of them All"
    - iconurl: token image url e.g. "https://meme.com/token.png"
    - symbol: symbol of token e.g. "4,MEME", 4 is the precision of the MEME token from earlier (remember .0000)
+
+
+**Important**
+It is good practice for token contracts to null out their keys by setting both owner and active keys to eosio@active to prevent further changes to the token contract. This will be required if you want your token to be used directly for buying and selling tokens through NFT marketplace.
